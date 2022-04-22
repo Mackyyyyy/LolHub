@@ -1,0 +1,81 @@
+.intro{
+    margin-top: auto;
+    width: 60%;
+    border: 3px;
+    padding: 10px;
+    margin-bottom: auto;
+    text-align: left;
+    }
+    .card {
+    transition: all 0.2s ease;
+    cursor:pointer;
+    }
+    .card:hover {
+    transform: scale(1.1);
+    }
+    .etc {
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0
+    rgba(0,0,0,0.19)
+    }
+    mark {
+    background-color: rgb(255, 255, 255);
+    }
+    body, html {
+    height: 100%;
+    }
+  
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    .banner4{
+    height: 320vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0,
+    0.4));
+    background-size: cover;
+    background-position: center;
+    }
+    .navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    }
+    .logo{
+    width: 120px;
+    cursor: pointer;
+    }
+    .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    }
+    .navbar ul li a{
+    text-decoration: none;
+    color: #c5ac1e;
+    text-transform: uppercase;
+    }
+    .navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #043277;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    }
+    .navbar ul li:hover::after{
+    width: 100%;
+    }
+    .avatar {
+        vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    
+    

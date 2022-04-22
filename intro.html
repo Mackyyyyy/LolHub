@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>Intro</title>
+    <link rel="stylesheet" href="C:\Users\Maki\Desktop\Testing\intro.css">
+    <link rel="stylesheet" href="intro.css" type="text/css">
+</head>
+<body>
+    <div class="banner1">
+        <div class="navbar">
+             <a href="Home.html"><img src="hublogo.png" class="logo" ></a>
+            <ul>
+                <li><a href="intro.html"><b>Intro</b></a></li>
+                <li><a href="champion.html">Champion Lore</a></li>
+                <li><a href="objectives.html">Objectives</a></li>
+                <li><a href="team.html">Team Strategies</a></li>
+            </ul>
+        </div>
+       <h1 class="title">Welcome to League of Legends Hub</h1>
+            <div class="intro">
+                <img class="lol" src="lol4.gif">
+                <h1><p class="p">What is League of Legends?</p> </h1>
+                 <h2><p class="p1">League of Legends (LoL), commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games. Inspired by Defense of the Ancients, a custom map for Warcraft III, Riot's founders sought to develop a stand-alone game in the same genre. Since its release in October 2009, the game has been free-to-play and is monetized through purchasable character customization. The game is available for Microsoft Windows and macOS.</p></h2>
+                 <h1 class="intro">Introduction to League of Legends</h1>
+                 <h2><p class="p2">League of Legends is a free 5v5 online MOBA game created and published by Riot Games. The end-game objective of the game is to destroy the enemy team's nexus, located deep into their base. Before doing so, players split into roles and head into lanes where they must kill minions for gold, battle enemy players and destroy their structures. Players choose champions in order to play the game, with all champions having unique abilities and roles. There is also a jungle with a wide variety of jungle monsters, as well as neutral monsters that can be killed by both teams such as Baron Nashor, Elemental Drakes or Elder Drake. The killing of these monsters grants different bonuses and rewards.</p></h2>
+                </div>
+    <style>
+        .collapsible {
+          background-color: darkblue;
+          color: white;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 30px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+       
+        .active, .collapsible:hover {
+          background-color: darkgoldenrod;
+        }
+       
+        .content {
+          padding: 0 18px;
+          display: none;
+          overflow: hidden;
+          background-color: #f1f1f1;
+          font-size: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        </style>
+        </head>
+        <body>
+       
+        <h1 class="role">Roles in League of Legends</h1>
+ 
+       
+       
+        <button type="button" class="collapsible">Toplane</button>
+        <div class="content">
+          <img class="lol" src="top.gif">
+          <p>Top Lane is considered the most remote and distant lane from all. It is usually occupied by the Top Laner whose job is generally to farm as much as possible, avoid dying and impact the map with global spells such as Teleport. Historically durable champions with lots of health, resistances and crowd control have been the most optimal choice for the role. However over time ranged carry champions have been played as an alternative, generally by teams with strong Top Laners who can dominate their role and win the game for their team.</p>
+        </div>
+        <button type="button" class="collapsible">Jungle</button>
+        <div class="content">
+          <img class="lol" src="jungle.gif">
+          <p>The Jungle role is considered by many as the most integral part of the team. The Jungler often dictates how the early game (the first 15-20 minutes) is played through his ganks and objective takes. The signature trademark of the Jungler is the ability to use Smite in order to secure objectives for his team. While the best options for the role are champions with crowd control for easier ganks, generally any champion can work in the jungle if he/she has the ability to clear jungle monsters at a decent pace.</p>
+        </div>
+        <button type="button" class="collapsible">Midlane</button>
+        <div class="content">
+          <img class="lol" src="lissandra.gif">
+          <p>Possibly the most iconic role of all, Mid Lane is one of the two primary carry roles in the game. Occupied primarily by ranged mages or assassins, Mid Lane is the most versatile role for the ability to roam around the map and make plays. Many great players such as Faker and Bjergsen have graced the Mid Lane and have gained a reputation for being the linchpins behind their respective teams.</p>
+        </div>
+        <button type="button" class="collapsible">AD Carry</button>
+        <div class="content">
+          <img class="lol" src="bot.gif">
+          <p>AD Carry, also known as Marksman is one of two carry roles and considered by many as the main one. Situated most of the time at bottom lane alongside the Support, the job of the AD Carry is to farm as much as possible and gain items as fast as possible. Once mid to late game (20+ minutes) comes around, it's the AD Carry's job to output the maximum amount of damage he/she can without dying. Champions in this role are usually ranged and squishy, but deal a high amount of damage, especially with a lot of items.</p>
+        </div>
+        <button type="button" class="collapsible">Support</button>
+        <div class="content">
+          <img class="lol" src="support.gif">
+          <p>The job of the Support is generally to protect the team's AD Carry and make his/her life easier. Supports can also roam around the map if their AD Carry can temporarily survive a 1v2 and impact other lanes. Usually champions with good base stats, good crowd control and low dependency on items are chosen for the role. However there are cases where damage-oriented champions can work as supports.</p>
+        </div>
+       
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+       
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+ 
+</div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+ 
+</html>
